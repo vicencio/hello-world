@@ -14,8 +14,14 @@ public class Pruebagithub {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
-        // TODO code application logic here
+     public static void main(String[] args) {
+        int aux = 0;
+        int i=0;
+        while(i<=5){
+            aux = (int)(Math.random()*56 + 1);                                    
+            System.out.print(aux + " ");
+            i++;
+            
+        }
     }
-    
 }
