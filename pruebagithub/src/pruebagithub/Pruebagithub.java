@@ -18,7 +18,7 @@ public class Pruebagithub {
         int aux = 0;
         int i=0;
         while(i<=5){
-            aux = (int)(Math.random()*58 + 1);                                    
+            aux = (int)(Math.random()*52 + 1);                                    
             System.out.print(aux + " ");
             i++;
             
